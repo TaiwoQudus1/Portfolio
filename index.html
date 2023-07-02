@@ -2,27 +2,31 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="C:\Users\GOLDEN\Downloads\fontawesome-free-6.2.1-web\fontawesome-free-6.2.1-web\css\all.min.css">
     </head>
     <body>
        <div id="container">
         <div id="first-part">
-            <i class="fa-solid fa-times"></i>
-            <nav id="nav-bar">
-            <ul>
-                <li><a href="#about">about</a></li>
-                <li><a href="#technology">technology</a></li>
-                <li><a href="#project">project</a></li>
-                <li><a href="#contact">contact</a></li>
-                <li><a href="#media">media</a></li>
+            <nav class="navbar  navbar-expand-md">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"><i class="fa-solid fa-bars"></i> </button>
+                    <h2><a class="navbar-brand" >Qudus</a></h2>
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item"><a class="nav-link active"  aria-current="page" href="#about">about</a></li>
+                <li class="nav-item"><a class="nav-link active"  aria-current="page" href="#technology">technology</a></li>
+                <li class="nav-item"><a class="nav-link active"  aria-current="page" href="#project">project</a></li>
+                <li class="nav-item"><a class="nav-link active"  aria-current="page" href="#contact">contact</a></li>
+                <li class="nav-item"><a class="nav-link active"  aria-current="page" href="#media">media</a></li>
             </ul>
+        </div>
             </nav>
         </div>
         <div id="second-part">
-            <div class="child block"><i class="fa-solid fa-bars bars"></i> <h2><a name="about">about me
+            <div class="child block"><h2><a name="about">about me
                     </a></h2>
                     <img src="Qutex.jpg" alt="" class="img">
-                    <p>My name is Taiwo Qudus Alade, I was born on the 10th of October 2004.
+                    <p class="about-paragraph">My name is Taiwo Qudus Alade, I was born on the 10th of October 2004.
                         I graduated from Adebola Baptist senior High school,and currnently an Undergraduate
                         of University of Lagos. I am a creature of Many skills which are: a Front-end webdeveloper, and a forex
                         trader. although in the future i will love to learn more and expand in my field of expertise. thank you very much
@@ -37,7 +41,7 @@
                 </ul>
             </p>
             </div>
-            <div class="child">
+            <div class="child technologies">
                 <h2><a name="technology">technologies</a></h2>                
                 <ul>
                     <li class="tech"><i class="fa-brands fa-html5 font i"></i><h2>HTML</h2></li>
@@ -46,7 +50,7 @@
                     <li class="tech"><i class="fa-brands fa-html5 font i"></i><h2>REACT-JS</h2></li>
                 </ul>
             </div>
-            <div class="child">
+            <div class="child new">
                 <h2><a name="project">project</a></h2>
                 <a href="C:\Users\GOLDEN\Desktop\practice\jquery\prac/prac.html">
                     <img src="C:\Users\GOLDEN\Pictures\Screenshots/form.png" alt="" class="frame">
@@ -72,7 +76,9 @@
             </div>
         </div>
        </div> 
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
     <script src="index.js"></script>
+    </body>
 </html>
