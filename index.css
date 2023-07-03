@@ -1,7 +1,6 @@
 body{
     line-height: 1.2rem;
     margin: 0;
-    text-transform:capitalize ;
 }
 
 
@@ -24,8 +23,6 @@ body{
 
 #second-part{
     background-color: #fff;
-    width: 100%;
-    height: calc(auto - 120px);
     text-align: center;
     color:  #27374D;
 }
@@ -34,7 +31,7 @@ body{
 
 
 .child{
-    padding: 20px;
+    padding: 20px 0;
     justify-content: center;
 }
 
@@ -59,7 +56,7 @@ img + p,
  font-size: 2rem;
  line-height: 2.5rem;
  color: black;
- padding: 0 20%;
+ padding: 0 3%;
  text-align: left;     
 }
 
