@@ -4,10 +4,6 @@ body{
     text-transform:capitalize ;
 }
 
-#container{
-    display: grid;
-    grid-template-rows: auto auto;
-}
 
 #first-part{
     z-index: 5;
@@ -31,7 +27,7 @@ body{
     width: 100%;
     height: calc(auto - 120px);
     text-align: center;
-    color:  #FCA311;
+    color:  #27374D;
 }
 
 
@@ -42,17 +38,15 @@ body{
     justify-content: center;
 }
 
-.child h2 a{
-    color:#27374D;
-    padding:5px 20px;
-    font-size: 2rem;
-    border-radius: 20px;
+
+.tech-ul{
+    margin-top: 2rem;
 }
 
 
-.technologis{
-    text-align: left;
-    font-size: 3rem;
+.technologies{
+    text-align: center;
+    font-size: 2.5rem;
 }
 
 .block{
@@ -65,7 +59,8 @@ img + p,
  font-size: 2rem;
  line-height: 2.5rem;
  color: black;
- padding: 0 20%;    
+ padding: 0 20%;
+ text-align: left;     
 }
 
 .list{
@@ -159,7 +154,8 @@ img + p,
  font-size: 1.5rem;
  line-height: 2rem;
  color: black;
- padding: 0 5%;    
+ padding: 0 5%; 
+ text-align: left;   
 }
 
 .list{
